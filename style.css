@@ -1,0 +1,72 @@
+/* Header */
+div#login a{
+  text-decoration: none;
+}
+
+div#login a:hover{
+  text-decoration: underline;
+}
+
+div#login div#menuIcon:hover{
+  background-color: #efefef;
+  border-radius: 50%;
+}
+
+/* Logo */
+
+img{
+  width: 40%;
+}
+
+/* Search Bar */
+div#searchBar input{
+  width: 42%;
+  height: 50px;
+  border-radius: 60px;
+  border: 0.1px solid;
+  border-color: black;
+  border-style: inset;
+}
+
+div#searchBar i#searchIcon{
+  position: absolute;
+  left: 31%;
+}
+
+div#searchBar i#microIcon{
+  position: absolute;
+  right: 31%;
+}
+
+/* Buttons after Search Bar*/
+
+div#buttons button:hover{
+  border: 1px solid lightgray;
+}
+
+/* Location */
+div#location{
+  position: absolute;
+  bottom: 3em;
+}
+
+div#location p{
+  margin-left: 1em;
+}
+
+/* Footer */
+
+div#footer{
+  margin-top: -1%;
+  position: absolute;
+  bottom: 0;
+}
+
+div#footer a{
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+div#footer a:hover{
+  text-decoration: underline;
+}
